@@ -1,0 +1,59 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.section-top-text {
+  font-size: 2.4rem;
+}
+
+.hr-sep {
+  border-top: 1px solid rgba(220, 20, 60, 0.6);
+}
+
+.navbar {
+  font-weight: 300;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 3;
+}
+
+.navbar .navbar-brand h3 {
+  font-weight: 700;
+}
+
+.navbar .navbar-nav .nav-link {
+  padding-bottom: 0.4rem;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+  border-bottom: 1px solid #ebebeb;
+}
+
+.navbar .navbar-nav .nav-item {
+  font-size: 1.1rem;
+}
+
+.header {
+  background: url("./Image/pexels-fabricio-trujillo-54567.jpg") no-repeat bottom center/cover;
+  position: relative;
+  min-height: 877px;
+  z-index: 2;
+}
+
+.header .overlay {
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.sport-section .card-body .card-text {
+  font-size: 1.2rem;
+}
+/*# sourceMappingURL=main.css.map */
